@@ -2,12 +2,9 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IconComponent } from './icon/icon.component';
 
-
-
 @NgModule({
   declarations: [IconComponent],
-  imports: [
-    CommonModule
-  ]
+  imports: [CommonModule],
+  exports: [IconComponent],
 })
-export class SharedModule { }
+export class SharedModule {}
